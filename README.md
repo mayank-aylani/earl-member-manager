@@ -1,2 +1,4 @@
-# CLIMemberManager
-..
+The Member Management System is a lightweight Java-based command-line application designed to manage member registration records without relying on a relational database. Instead of using MySQL or any external storage engine, the application utilizes Java's RandomAccessFile to perform persistent file-based data management. 
+The application provides a simple yet effective interface for storing and managing member information, including contact number, member name, enrolled course, and registration fee. It supports complete CRUD functionality, allowing users to add new members, update existing records, delete registrations, and retrieve information efficiently.
+Several validation mechanisms are implemented to ensure data consistency, such as preventing duplicate contact numbers, validating supported course names, and handling invalid command-line arguments gracefully. Additional search operations enable retrieving members by contact number or by enrolled course, while aggregate statistics such as total registrations and total fee collection are also displayed.
+This project demonstrates practical usage of Java File I/O, RandomAccessFile, command-line argument processing, exception handling, data validation, and modular program design without the use of any external database.
