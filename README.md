@@ -1,4 +1,4 @@
-# earl-member-manager — Database-less Member Management CLI (Java)
+# earl-member-manager
 
 > A lightweight command-line member management system with persistent file-based storage, supporting complete CRUD operations without any external database, built entirely in Java.
 
@@ -16,18 +16,15 @@
 
 Instead of using MySQL or any external database, the application uses Java's `RandomAccessFile` to read and write records directly to a local data file.
 
-The project was built to understand low-level file I/O, persistent storage, command-line argument processing, CRUD operations, validation, exception handling, and application-level data management without relying on a database or ORM.
+I built this project to understand low-level file I/O, persistent storage, command-line argument processing, CRUD operations, validation, exception handling, and application-level data management without relying on a database.
 
 ## Tech Used
 
 - Java
 - Java File I/O
-- `RandomAccessFile`
 - Command-line argument processing
 - Exception handling
 - Input validation
-- File-based persistent storage
-- Modular method-per-operation design
 
 ## Features
 
@@ -74,12 +71,3 @@ The application also displays:
 
 - Total number of registrations
 - Total fee collected
-
-## Documentation & Usage
-
-The first CLI argument represents the operation, followed by its required parameters.
-
-### Add
-
-```bash
-java earlMembers add 9998887776 "Mayank Aylani" "C++" 12500
