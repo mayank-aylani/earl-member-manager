@@ -1,21 +1,12 @@
-<img src='images/1.png' width='120%'>
-
-<img src='images/2.png' width='120%'>
 # earl-member-manager — Database-less Member Management CLI (Java)
 
 > A lightweight command-line member management system with persistent file-based storage, supporting complete CRUD operations without any external database, built entirely in Java.
 
 ## Project Documentation
 
-<div>
-  <img src="docs/1.png" width="75%">
-</div>
+<img src='images/1.png' width='120%'>
 
-<br>
-
-<div>
-  <img src="docs/2.png" width="75%">
-</div>
+<img src='images/2.png' width='120%'>
 
 <br>
 
