@@ -1,6 +1,5 @@
-<img src="images/1.png" width="120%">
-
-<img src="images/2.png" width="120%">
+<div><img src="images/1.png" width="120%"></div>
+<div><img src="images/2.png" width="120%"></div>
 CLIMemberManager — A Database-less Member Management CLI (Java)
 > A lightweight command-line member management system that stores data with **no relational database** — using Java's `RandomAccessFile` for persistent, file-based storage.
 About
