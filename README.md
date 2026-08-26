@@ -1,3 +1,6 @@
+<img src="docs/1.png" width="80%">
+
+<img src="docs/2.png" width="80%">
 CLIMemberManager — A Database-less Member Management CLI (Java)
 > A lightweight command-line member management system that stores data with **no relational database** — using Java's `RandomAccessFile` for persistent, file-based storage.
 About
